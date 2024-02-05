@@ -16,7 +16,7 @@ const VerificationScreen = ({ navigation }) => {
                     required={false}
                     style={styles.input}
                 />
-                <TouchableOpacity style={styles.button}>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('OTP')}>
                     <Text style={styles.buttonTxt}>Continue</Text>
                 </TouchableOpacity>
             </View>
@@ -70,6 +70,7 @@ const styles = StyleSheet.create({
         whiteSpace: "nowrap",
     },
     buttonTxt: {
+        fontFamily: "Montserrat, sans-serif",
         color: "#EFEFF0"  
     },
 });
