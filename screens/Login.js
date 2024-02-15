@@ -66,8 +66,8 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   heading: {
-    fontFamily: "Montserrat, sans-serif",
-    fontWeight: "700",
+    fontFamily: "montserrat-bold",
+    fontWeight: "500",
     fontSize: 30,
     color: "#EFEFF0",
     marginVertical: 20,
@@ -81,19 +81,21 @@ const styles = StyleSheet.create({
   title: {
     color: "#515155",
     fontSize: 30,
-    fontFamily: "Montserrat, sans-serif",
+    fontFamily: "montserrat-bold",
     marginTop: 17,
   },
   subtitle: {
-    fontFamily: "Montserrat, sans-serif",
+    fontFamily: "montserrat-regular",
     fontWeight: "600",
     marginVertical: 20,
   },
   label: {
-    fontFamily: "Montserrat, sans-serif",
+    fontFamily: "montserrat-bold",
+    color: "#515155",
     marginTop: 20,
   },
   input: {
+    fontFamily: "montserrat-regular",
     marginTop: 10,
     borderRadius: 3,
     borderWidth: 1,
@@ -105,10 +107,10 @@ const styles = StyleSheet.create({
   },
   forgotPassword: {
     color: "#00BFA6",
-    fontFamily: "Montserrat, sans-serif",
     marginTop: 20,
   },
   link: {
+    fontFamily: "montserrat-bold",
     color: "#00BFA6",
   },
   signInButton: {
@@ -121,7 +123,7 @@ const styles = StyleSheet.create({
     padding: 15,
   },
   buttonText: {
-    fontFamily: "Montserrat, sans-serif",
+    fontFamily: "montserrat-bold",
     color: "#EFEFF0",
     textAlign: "center",
   },
