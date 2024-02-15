@@ -41,9 +41,9 @@ const styles = StyleSheet.create({
         color: "#00BFA6",
         alignSelf: "center",
         marginTop: 20,
-        fontWeight: "700",
+        fontWeight: "600",
         fontSize: 22,
-        fontFamily: "Montserrat, sans-serif",
+        fontFamily: "montserrat-bold",
     },
     input: {
         marginTop: 45,
@@ -51,10 +51,10 @@ const styles = StyleSheet.create({
         borderWidth: 0.8,
         borderStyle: "solid",
         borderColor: "rgba(81, 81, 85, 1)",
-        fontSize: 16,
-        fontWeight: "700",
         padding: 15,
         paddingHorizontal: 20,
+        fontFamily: "montserrat-regular",
+        fontWeight: "500",
     },
     button: {
         borderRadius: 3,
@@ -64,13 +64,10 @@ const styles = StyleSheet.create({
         alignItems: "center",
         color: "#EFEFF0",
         padding: 16,
-        fontFamily: "Montserrat, sans-serif",
-        fontWeight: "700",
-        fontSize: 16,
         whiteSpace: "nowrap",
     },
     buttonTxt: {
-        fontFamily: "Montserrat, sans-serif",
+        fontFamily: "montserrat-bold",
         color: "#EFEFF0"  
     },
 });

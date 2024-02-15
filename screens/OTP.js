@@ -17,8 +17,8 @@ const OTPScreen = ({ navigation }) => {
         <View>
             <Text style={styles.header}>Verification Code</Text>
         </View>
-        <View style={styles.subHeader}>
-            <Text>Please type verification code sent to +60 xxxxxxxxxx</Text>
+        <View>
+            <Text style={styles.subHeader}>Please type verification code sent to +60 xxxxxxxxxx</Text>
         </View>
         <View style={styles.codeContainer}>
             <View style={styles.code}>
@@ -39,8 +39,8 @@ const OTPScreen = ({ navigation }) => {
         </View>
         <TouchableOpacity style={styles.resend}>
             <Text>
-                <Text style={styles.link}>Didn't receive any code?</Text>{" "}
-                <Text style={styles.link}>Resend</Text>
+                <Text style={styles.link1}>Didn't receive any code?</Text>{" "}
+                <Text style={styles.link2}>Resend</Text>
             </Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.verifyButton} onPress={() => navigation.navigate('ThanksForRegistering')}>
@@ -69,12 +69,12 @@ const styles = StyleSheet.create({
         alignSelf: "center",
         marginTop: 20,
         fontSize: 22,
-        fontFamily: "Montserrat, sans-serif",
+        fontFamily: "montserrat-bold",
     },
     subHeader: {
         color: "#515155",
         textAlign: "center",
-        fontFamily: "Montserrat, sans-serif",
+        fontFamily: "montserrat-medium",
         fontWeight: "500",
         alignSelf: "center",
         marginTop: 62,
@@ -100,21 +100,23 @@ const styles = StyleSheet.create({
         padding: 18,
     },
     codeInput: {
-        fontFamily: "Montserrat, sans-serif",
+        fontFamily: "montserrat-bold",
         textAlign: "center",
     },
     timer: {
-        fontFamily: "Montserrat, sans-serif",
+        fontFamily: "montserrat-medium",
         marginTop: 17,
         textAlign: "right",
     },
     resend: {
-        color: "rgba(81, 81, 85, 0.80)",
-        fontFamily: "Montserrat, sans-serif",
-        fontWeight: "600",
         marginTop: 23,
     },
-    link: {
+    link1: {
+        fontFamily: "montserrat-medium",
+        color: "rgba(81, 81, 85, 1)",
+    },
+    link2: {
+        fontFamily: "montserrat-bold",
         color: "rgba(81, 81, 85, 1)",
     },
     verifyButton: {
@@ -130,7 +132,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 60,
     },
     verifyButtonText: {
-        fontFamily: "Montserrat, sans-serif",
+        fontFamily: "montserrat-bold",
         color: "#EFEFF0",
     },
 });

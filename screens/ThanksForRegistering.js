@@ -52,8 +52,7 @@ const styles = StyleSheet.create({
         marginTop: 88,
         width: 317,
         fontSize: 30,
-        fontFamily: "Montserrat, sans-serif",
-        fontWeight: "bold",
+        fontFamily: "montserrat-bold",
         textAlign: "center",
     },
     registerText: {
@@ -62,8 +61,8 @@ const styles = StyleSheet.create({
     message: {
         color: "#EFEFF0",
         marginTop: 71,
-        fontSize: 22,
-        fontFamily: "Montserrat, sans-serif",
+        fontSize: 18,
+        fontFamily: "montserrat-medium",
         fontWeight: "600",
         textAlign: "center",
     },
@@ -75,7 +74,7 @@ const styles = StyleSheet.create({
         alignSelf: "center",
         marginTop: 80,
         fontSize: 50,
-        fontFamily: "Montserrat, sans-serif",
+        fontFamily: "montserrat-bold",
     },
     homeButton: {
         borderRadius: 3,
@@ -83,12 +82,11 @@ const styles = StyleSheet.create({
         marginTop: 100,
         justifyContent: "center",
         alignItems: "center",
-        color: "#00BFA6",
         padding: 15,
         fontSize: 16,
-        fontFamily: "Montserrat, sans-serif",
     },
     goHomeTxt: {
+        fontFamily: "montserrat-bold",
         color: "#00BFA6",
     },
 });

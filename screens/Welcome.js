@@ -27,12 +27,12 @@ const WelcomeScreen = ({ navigation }) => {
         style={styles.image2}
       /> */}
       <View>
-        <Text style={styles.h1}>Welcome</Text>
+        <Text style={styles.header}>Welcome</Text>
       </View>
       <View>
-        <Text style={styles.h2}>
+        <Text style={styles.subheader}>
           Manage your carpool ride{" "}
-          <Text style={{ fontWeight: "600" }}>seamlessly & intuitively</Text>
+          <Text style={{ fontWeight: "700" }}>seamlessly & intuitively</Text>
         </Text>
       </View>
       <Pressable style={styles.signInButton} onPress={() => navigation.navigate('Login')}>
@@ -70,21 +70,21 @@ const styles = StyleSheet.create({
   //   width: 64,
   //   aspectRatio: 7.14,
   // },
-  h1: {
+  header: {
     marginTop: 76,
     fontSize: 30,
-    fontWeight: "700",
-    fontFamily: "Montserrat, sans-serif",
+    fontWeight: "500",
+    fontFamily: "montserrat-bold",
     color: "#EFEFF0",
   },
-  h2: {
-    fontFamily: "Montserrat, sans-serif",
+  subheader: {
+    fontFamily: "montserrat-regular",
+    fontSize: 16,
     fontWeight: "500",
     marginTop: 24,
     color: "#EFEFF0",
   },
   signInButton: {
-    fontFamily: "Montserrat, sans-serif",
     borderRadius: 3,
     borderWidth: 1.5,
     borderColor: "#EFEFF0",
@@ -98,7 +98,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 60,
   },
   createAccButton: {
-    fontFamily: "Montserrat, sans-serif",
     borderRadius: 3,
     borderWidth: 1.5,
     borderColor: "#EFEFF0",
@@ -110,9 +109,11 @@ const styles = StyleSheet.create({
     paddingHorizontal: 60,
   },
   signInButtonTxt: {
+    fontFamily: "montserrat-bold",
     color: "#00BFA6",
   },
   createAccButtonTxt: {
+    fontFamily: "montserrat-bold",
     color: "#EFEFF0",
   }
 });
